@@ -13,7 +13,7 @@
 
 }
 
-#header, #menu, #footer {
+#header, #menu {
     padding: 20px;
     font-family: 'Gils Sans', 'Gils Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
     font-size: 24pt;
@@ -21,10 +21,13 @@
     text-align: center;
 }
 #header{
-    background-color:  #f4a688;
+    background-color: #fff2df;
+    background-image: url('https://i.pinimg.com/564x/e0/79/8a/e0798a02ef252160199e523cc357d7fc.jpg');
+    height: 100px;
+
 }
 #menu {
-    background-color:  #f9ccac;
+    background-color:  #0000FF;
     display: flex;
     justify-content: space-around;
 }
@@ -34,7 +37,7 @@
     flex-direction: row; /*biar sidebar dan main ga sejajar*/
 }
 #sidebar {
-    background-color: #FDCFB3;
+    background-color: #000080;
     width: 200px;
     flex-shrink: 0; /*biar sidebar ga mengecil*/
 }
@@ -44,5 +47,7 @@
     padding: 20px;
 }
 #footer{
-    background-color:  #f9ccac;
+    background-image: url('https://i.pinimg.com/564x/e0/79/8a/e0798a02ef252160199e523cc357d7fc.jpg');
+    height: 70px;
+    background-color:  #0000FF;
 }
