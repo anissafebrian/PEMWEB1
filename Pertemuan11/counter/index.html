@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membuat Penghitung Berapa Kali Tombol Ditekan</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+    <h1 id ="counter-title"> Jumlah Tombol Ditekan: <span id ="counter">0</span> Kali </h1>
+    <marquee behavior="alternate" onmouseover="stop()" onmouseout="start()">
+        <button type="button" id="button" onclick="counter()">Tekan Saya!</button>
+    </marquee>
+
+
+</body>
+</html>

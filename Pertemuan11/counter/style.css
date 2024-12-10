@@ -1,0 +1,7 @@
+body {
+    background-color: pink;
+    display: flex; align-items: center; justify-content: center;
+    height: 100vh;
+    font-style: small;
+    flex-direction: column;
+}
