@@ -1,0 +1,15 @@
+#employee-table{
+    border:1px solid ;
+}
+#column-names >th{
+    border: 1px solid;
+    padding: 12px;
+    background-color: aqua;
+
+}
+#table-body >tr >td{
+    border: 1px solid;
+    padding: 15px;
+
+
+}
